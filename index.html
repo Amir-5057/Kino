@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="rounded">
+      <h1>Кинопоиск</h1>
+      <nav class="darkBg">
+        <button class="active">Главная</button>
+        <button>Избранное</button>
+      </nav>
+      <img src="./img/themeChange.svg" alt="theme Change icon" id="changeBtn" />
+    </header>
+    <div class="search rounded">
+      <input type="text" name="search" />
+      <button class="darkBg">Поиск</button>
+    </div>
+    <div class="loader rounded"></div>
+    <div class="rounded message"></div>
+    <main class="rounded">
+      <div class="movieTitle darkBg">
+        <h2 class="textCenter">MIB</h2>
+      </div>
+      <div class="movie">
+        <div
+          class="movieImage"
+          style="background-image: url('./img/film1.jpg')"
+        ></div>
+        <div class="movieDesc darkBg">
+          <div class="desc">
+            <div class="movieLeft">Actors</div>
+            <div class="movieRight">
+              Health Harper, Debra Lamb, Lexsy Mckowen
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="darkBg similarTitle">
+        <h2 class="textCenter">Похожих фильмов 6</h2>
+      </div>
+      <div class="similarMovies darkBg">
+        <div class="similarCard" style="background-image: url('./img/film2.jpg')">
+          <div class="favStar"></div>
+          <h3>MIB ADR</h3>
+        </div>
+
+        <div class="similarCard" style="background-image: url('./img/film3.jpg')">
+          <div class="favStar"></div>
+          <h3>MIB ADR</h3>
+        </div>
+
+        <div class="similarCard" style="background-image: url('./img/film4.jpg')">
+          <div class="favStar"></div>
+          <h3>MIB ADR</h3>
+        </div>
+
+        <div class="similarCard" style="background-image: url('./img/film5.jpg')">
+          <div class="favStar"></div>
+          <h3>MIB ADR</h3>
+        </div>
+
+        <div class="similarCard" style="background-image: url('./img/film1.jpg')">
+          <div class="favStar"></div>
+          <h3>MIB ADR</h3>
+        </div>
+        
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
